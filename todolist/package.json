@@ -10,8 +10,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@okta/okta-auth-js": "^1.16.0",
+    "firebase": "^4.12.1",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-resource": "^1.5.0",
+    "vue-router": "^3.0.1",
+    "vuefire": "^1.4.5"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
